@@ -23,9 +23,9 @@ window.player = (function(){
 				isHit : false,
 				explosionTimer : 0,
 				explosionMaxTime : 80,
-				redUpgrade : true,
-				greenUpgrade : true,
-				blueUpgrade : true,
+				redUpgrade : false,
+				greenUpgrade : false,
+				blueUpgrade : false,
 				
 				
 				explode: function() {
